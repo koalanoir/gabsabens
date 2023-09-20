@@ -9,9 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { PresentationComponent } from './presentation/presentation.component';
-import { MatCardModule } from '@angular/material/card';
-import { ProcessusComponent } from './processus/processus.component'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,15 +17,12 @@ import { ProcessusComponent } from './processus/processus.component'
     HomeComponent,
     FooterComponent,
     ProjectsComponent,
-    ContactComponent,
-    PresentationComponent,
-    ProcessusComponent
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule,
     MatIconModule
   ],
   providers: [],
