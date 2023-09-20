@@ -1,0 +1,20 @@
+<div class="container" id="contact">
+    <div class="description">
+        <div class="formulaire">
+            <span>
+                <label>Vous pouvez nous contacter via nos réseaux ou via le formulaire de contact ci-dessous</label>
+                <br/><br/>
+                <form class="contact"action="https://formsubmit.co/ngdorian0@gmail.com" method="POST">
+                    <label [translate]="'Nom'"></label>
+                    <input class="form-input" type="text" id="Name" name="name" [placeholder]="'Nom' " required/>
+                    <label [translate]="'Contact'"></label>
+                    <input class="form-input" type="email" id="Email" name="email" [placeholder]="'Email ou numéro de téléphone' " required/>
+                    <label [translate]="'message'"></label>
+                    <textarea class="form-input" rows="3" type="text"name="content" id="Content"  [placeholder]="'Contenu du message' "></textarea>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </span>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,59 @@
+.container{
+    text-align: center;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    
+    flex-direction: column;
+    background-color: transparent;
+    color: white;
+    >.card{
+        display: flex;
+        justify-content: center;
+        >mat-card{
+            margin-bottom: 5px;
+            width: 60vw;
+            box-shadow: rgb(0, 0, 0) 0px 14px 28px, rgb(0, 0, 0) 0px 10px 10px;
+            background-color: rgb(252, 252, 252);
+            >.next{
+                display: flex;
+                justify-content: space-around;
+                >mat-icon{
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+
+
+    .commander{
+        width: auto;
+        margin: 20px;
+        padding: 10px;
+        height: auto;
+        color: rgb(241, 241, 241);
+        border-radius: 5px;
+        background-color: rgb(14, 14, 14);
+        &:hover{
+            box-shadow: rgba(255, 255, 255) 0px 14px 28px, rgba(255, 255, 255) 0px 10px 10px;
+            background-color: rgb(255, 174, 0);
+            a{color: black;}
+        }
+    }
+}
+
+img{
+    box-shadow: rgba(235, 235, 235, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
+   
+    width: 30vw;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 50em){
+    img{
+        width: 50vw;
+    }
+}

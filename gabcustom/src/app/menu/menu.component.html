@@ -1,0 +1,27 @@
+<ul class="menu">
+    <li class="logo"><img src="../../assets/images/icon.png" alt="logo"></li>
+    <li>
+        
+        <ul>
+            <mat-icon *ngIf="menu==false" (click)="cliqueSurMenu()">menu</mat-icon>
+            <mat-icon *ngIf="menu==true" (click)="cliqueSurMenu()">close</mat-icon>
+            <li *ngIf="menu==true">Projects</li>
+            <li *ngIf="menu==true">Tarif</li>
+            <li *ngIf="menu==true">Processus</li>
+            <li *ngIf="menu==true">Contact</li>
+        </ul>
+
+    </li>
+</ul>
+
+<div class="menu-full">
+    <div class="logo-full">
+        <img src="../../assets/images/icon.png" alt="logo">
+    </div>
+    <div class="items">
+        <div class="item">Projects</div>
+        <div class="item">Tarif</div>
+        <div class="item">Processus</div>
+    </div>
+    <div>Contact</div>
+</div>

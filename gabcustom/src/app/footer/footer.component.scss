@@ -1,0 +1,13 @@
+ul{
+    color: white;
+    font-size: 11px;
+    overflow: hidden; /* Clear float */
+    list-style-type: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    >li{
+        float: left;
+        text-decoration: none;
+    }
+}

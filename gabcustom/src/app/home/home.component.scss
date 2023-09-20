@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    background-color: #2658b1;
+    background-image: linear-gradient(90deg, #2658b1 0%, #000000 46%, #a0772d 100%);
+    
+    flex-direction: column;
+}
+
+@media (max-width: 50em) {
+    .container{
+        overflow-x: hidden;
+        background-color: #2658b1;
+        background-image: linear-gradient(90deg, #2658b1 0%, #000000 46%, #a0772d 100%);
+     
+        justify-content: center;
+        width: 100vw;
+        .presentation{
+            >app-menu{
+                z-index: 0;
+            }
+            margin-bottom: 10px;
+        }
+        
+    
+    }
+    .bar{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .line{
+        width: 90vw;
+        border-top: 1px solid black;
+    }
+    app-processus{
+        height: 100vh;
+    }
+}
