@@ -5,10 +5,13 @@
     justify-content: center;
     
     flex-direction: column;
-    background-color: rgb(0, 0, 0);
+    background-image: url('../../assets/images/4.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 1;
     color: white;
     >mat-card{
-        background-color: rgb(0, 0, 0);
+        background-color: transparent;
     }
     .commander{
         width: auto;
@@ -39,5 +42,8 @@ a{
     img{
         box-shadow: rgba(235, 235, 235, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
         width: 70vw;
+    }
+    .container{
+        height: 100vh;
     }
 }
